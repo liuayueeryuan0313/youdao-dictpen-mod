@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "checks": [
+    "host_syntax",
+    "PASS: generated credentials, SHA512 account hash, module replacement, SSH key, unrelated JSON preservation",
+    "PASS: unmanaged account collision rejected without shadow mutation",
+    "PASS: install, repeated-install refusal, drift refusal, rollback originals/new files/accounts/apps, preserve later JSON edits",
+    "PASS: injected post-configuration failure automatically rolls back",
+    "PASS: unknown original hash refused before transaction",
+    "legacy_adb_remote_nonzero_detected",
+    "local_corruption_refused_before_adb",
+    "live_device_final_preflight_only"
+  ],
+  "actual_clean_install_tested": false,
+  "fixture_app_registration_and_remount": "mocked",
+  "source_device_reinstalled": false
+}
