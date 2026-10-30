@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "deployment_files": 164,
+  "source_data_excluded": [
+    "accounts",
+    "cookies",
+    "source device identity",
+    "Wi-Fi profiles",
+    "history and chats",
+    "photos and downloads",
+    "logs and databases",
+    "SSH private keys",
+    "original passwords"
+  ],
+  "scan": "raw bytes plus UTF16 known identity/current credentials; generic token/key/local user-path patterns; nested AMR entries",
+  "finding_count": 0,
+  "scanned_entries": 197,
+  "scope": "selected code/resources and generated portable scripts; not a proof for arbitrary compressed or encoded unknown data",
+  "target_credentials": "generated independently at installation; target backups remain on target only"
+}
